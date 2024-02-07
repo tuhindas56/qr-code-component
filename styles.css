@@ -1,0 +1,71 @@
+:root {
+  --ff: "Outfit", sans-serif;
+  --fs-big: 1.34rem;
+  --fs-small: 0.938rem;
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-gray: hsl(212, 45%, 89%);
+  --clr-grayish-blue: hsl(220, 15%, 55%);
+  --clr-dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--ff);
+  font-size: var(--fs-small);
+  background-color: var(--clr-light-gray);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+main {
+  margin: auto;
+}
+
+.card {
+  width: 270px;
+  align-items: center;
+  text-align: center;
+  background-color: var(--clr-white);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.qr-code {
+  display: inline-block;
+  height: auto;
+  width: 275px;
+  border-radius: 8px;
+  margin-bottom: 22px;
+  margin-top: -4px;
+}
+
+.card-heading {
+  color: var(--clr-dark-blue);
+  font-weight: 700;
+  font-size: var(--fs-big);
+  margin-bottom: 14px;
+}
+
+p {
+  color: var(--clr-grayish-blue);
+  margin-bottom: 1.3rem;
+}
+
+.card-heading,
+p {
+  padding-inline: 8px;
+}
+
+/*# sourceMappingURL=output.css.map */

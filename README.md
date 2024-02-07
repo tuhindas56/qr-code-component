@@ -1,2 +1,3 @@
 # qr-code-component
-Frontend Mentor qr code component challenge
+
+QR code component built using HTML and CSS for a Frontend Mentor challenge.

@@ -28,7 +28,7 @@ body {
   flex-direction: column;
 }
 
-main {
+.container {
   margin: auto;
 }
 
